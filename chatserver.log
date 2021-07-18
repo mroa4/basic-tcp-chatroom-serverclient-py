@@ -1,0 +1,36 @@
+[INFO] 2021-07-14 11:42:04,826 Thread-1 User Login Info = (True, 'hello')
+[INFO] 2021-07-14 11:42:36,210 Thread-4 User Login Info = (True, 'admin')
+[INFO] 2021-07-14 11:52:37,326 Thread-1 User Login Info = (False, 'hello')
+[INFO] 2021-07-14 11:55:45,958 Thread-1 User Login Info = (False, 'admin')
+[INFO] 2021-07-14 12:18:01,733 Thread-1 User Login Info = (True, 'admin')
+[INFO] 2021-07-14 12:18:21,114 Thread-2 User Login Info = (True, 'hello')
+[INFO] 2021-07-14 12:35:06,560 Thread-1 User Login Info = (False, 'hello')
+[INFO] 2021-07-14 12:35:06,561 Thread-1 User Login Info = None
+[INFO] 2021-07-14 12:35:27,905 Thread-2 User Login Info = (True, 'hello')
+[INFO] 2021-07-14 14:18:54,255 Thread-1 User Login Info = (True, 'test2')
+[INFO] 2021-07-14 14:18:57,329 Thread-1 Client on IP ('127.0.0.1', 55032) & Port <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42069), raddr=('127.0.0.1', 55032)> by user test2 Sent ['4']
+[INFO] 2021-07-14 14:19:13,945 Thread-4 User Login Info = (True, 'test')
+[INFO] 2021-07-14 14:19:16,044 Thread-4 Client on IP ('127.0.0.1', 55034) & Port <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42069), raddr=('127.0.0.1', 55034)> by user test Sent ['4']
+[INFO] 2021-07-14 14:19:21,855 Thread-4 Client on IP ('127.0.0.1', 55034) & Port <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42069), raddr=('127.0.0.1', 55034)> by user test Sent ['1', 'test2', 'hello']
+[INFO] 2021-07-14 14:19:34,110 Thread-4 Client on IP ('127.0.0.1', 55034) & Port <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42069), raddr=('127.0.0.1', 55034)> by user test Sent ['2']
+[INFO] 2021-07-14 14:19:36,967 Thread-4 Client on IP ('127.0.0.1', 55034) & Port <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42069), raddr=('127.0.0.1', 55034)> by user test Sent ['2', 'opps']
+[INFO] 2021-07-14 14:30:03,094 Thread-4 Client on IP ('127.0.0.1', 55034) & Port <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42069), raddr=('127.0.0.1', 55034)> by user test Sent []
+[INFO] 2021-07-14 14:30:03,095 Thread-4 Client on IP ('127.0.0.1', 55034) & Port <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42069), raddr=('127.0.0.1', 55034)> Disconnected
+[INFO] 2021-07-14 14:31:30,660 Thread-1 User Login Info = (True, 'test3')
+[INFO] 2021-07-14 14:32:35,896 Thread-4 User Login Info = (True, 'test')
+[INFO] 2021-07-14 14:32:42,339 Thread-4 Client on IP ('127.0.0.1', 44862) & Port <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42070), raddr=('127.0.0.1', 44862)> by user test Sent ['4']
+[INFO] 2021-07-14 14:32:48,607 Thread-4 Client on IP ('127.0.0.1', 44862) & Port <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42070), raddr=('127.0.0.1', 44862)> by user test Sent ['1', 'test3', 'hello']
+[INFO] 2021-07-14 14:32:53,922 Thread-4 Client on IP ('127.0.0.1', 44862) & Port <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42070), raddr=('127.0.0.1', 44862)> by user test Sent ['2', 'helll']
+[INFO] 2021-07-14 14:40:25,408 Thread-3 User Login Info = (False, '')
+[INFO] 2021-07-14 14:40:25,409 Thread-3 Client on IP ('127.0.0.1', 44860) & Port <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42070)> Disconnected
+[INFO] 2021-07-18 11:11:07,823 Thread-1 User Login Info = (True, 'admin')
+[INFO] 2021-07-18 11:11:31,516 Thread-4 User Login Info = (True, 'wow')
+[INFO] 2021-07-18 11:33:54,886 Thread-1 User Login Info = (True, 'admin')
+[INFO] 2021-07-18 11:33:57,890 Thread-1 Client on IP ('127.0.0.1', 39446) & Port <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> Disconnected
+[INFO] 2021-07-18 11:43:20,513 Thread-2 User Login Info = (False, '')
+[INFO] 2021-07-18 11:43:20,514 Thread-2 Client on IP ('127.0.0.1', 39452) & Port <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42070)> Disconnected
+[INFO] 2021-07-18 11:44:03,061 Thread-4 User Login Info = (True, 'admin')
+[INFO] 2021-07-18 11:46:25,315 Thread-1 User Login Info = (True, 'hello')
+[INFO] 2021-07-18 11:46:48,327 Thread-4 User Login Info = (True, 'admin')
+[INFO] 2021-07-18 11:47:13,334 Thread-1 Client on IP ('127.0.0.1', 39458) & Port <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> Disconnected
+[INFO] 2021-07-18 11:47:18,390 Thread-4 Client on IP ('127.0.0.1', 39460) & Port <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> Disconnected
